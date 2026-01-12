@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-
+import sklearn 
 st.title('Car Selling Price Prediction App')
 
 # Load the trained model
@@ -35,4 +35,5 @@ This app predicts the selling price of a car based on its manufacturing year,
 present price, and kilometers driven using a pre-trained machine learning model.
 
 """)
+
 
