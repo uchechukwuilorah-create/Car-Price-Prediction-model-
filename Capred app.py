@@ -1,7 +1,6 @@
+import pickle
 import streamlit as st
 import pandas as pd
-import pickle
-from sklearn.ensemble import BaggingRegressor
 
 st.title('Car Selling Price Prediction App')
 
@@ -36,6 +35,7 @@ This app predicts the selling price of a car based on its manufacturing year,
 present price, and kilometers driven using a pre-trained machine learning model.
 
 """)
+
 
 
 
