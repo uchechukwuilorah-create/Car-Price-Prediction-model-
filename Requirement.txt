@@ -3,3 +3,5 @@ seaborn
 matplotlib
 streamlit
 scikit-learn
+pickle
+sklearn
