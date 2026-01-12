@@ -6,8 +6,7 @@ st.title('Car Selling Price Prediction App')
 
 # Load the trained model
 # Ensure 'Main intern project.pkl' is in the same directory as this app.py or provide the full path
-with open('Main intern project.pkl', 'rb') as f:
-    model = pickle.load(f)
+
 
 st.header('Enter Car Details for Prediction')
 
@@ -33,4 +32,5 @@ if st.button('Predict Selling Price'):
 st.markdown("""
 This app predicts the selling price of a car based on its manufacturing year,
 present price, and kilometers driven using a pre-trained machine learning model.
+
 """)
