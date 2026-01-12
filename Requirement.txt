@@ -2,4 +2,7 @@ pandas
 seaborn
 matplotlib
 streamlit
-scikit-learn==0.24.2
+scikit-learn
+xgboost
+lightgbm
+numpy
