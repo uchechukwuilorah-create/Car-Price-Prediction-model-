@@ -2,4 +2,5 @@ pandas
 pickle 
 seaborn
 matplotlib
-streamlit 
+streamlit
+sklearn 
